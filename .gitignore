@@ -10,3 +10,4 @@ chromadb/
 results/*.json
 results/*.csv
 !results/.gitkeep
+

@@ -1,0 +1,24 @@
+digraph Multi {
+  graph [rankdir=TB, bgcolor="#ffffff", splines=ortho, nodesep=0.75, ranksep=0.65, pad=0.35, label="Bytebank | Sistema multiagente e Human-in-the-Loop", labelloc=t, fontsize=22, fontname="DejaVu Sans", fontcolor="#123a59"];
+  node [shape=box, style="rounded,filled", fillcolor="#edf7fd", color="#81bad7", fontname="DejaVu Sans", fontsize=11, fontcolor="#103c53", margin="0.2,0.16"];
+  edge [color="#369ac5", penwidth=1.4, arrowsize=0.7];
+  client [label="Interface Gradio\npergunta do cliente"];
+  sup [label="Supervisor\nclassificação de intenção", fillcolor="#fff4da", color="#ecc066"];
+  conta [label="Agente Conta Corrente"];
+  card [label="Agente Cartões"];
+  support [label="Agente Suporte"];
+  rag [label="RAG compartilhado\npolíticas com fonte + ACL", fillcolor="#d9f2ed", color="#68b2a5"];
+  human [label="HITL: revisão Platinum\ninterrupt → decisão humana", fillcolor="#fbe1e4", color="#d98f9f"];
+  final [label="Resposta final rastreável\nsem operações bancárias", fillcolor="#dceafc"];
+  client -> sup;
+  sup -> conta;
+  sup -> card;
+  sup -> support;
+  conta -> rag;
+  card -> rag;
+  support -> rag;
+  card -> human [label="se Platinum", fontname="DejaVu Sans", fontsize=9];
+  rag -> final;
+  human -> final;
+}
+

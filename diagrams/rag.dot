@@ -1,0 +1,17 @@
+digraph RAG {
+  graph [rankdir=LR, bgcolor="#ffffff", splines=ortho, nodesep=0.55, ranksep=0.85, pad=0.3, label="Bytebank | Arquitetura RAG", labelloc=t, fontsize=22, fontname="DejaVu Sans", fontcolor="#123a59"];
+  node [shape=box, style="rounded,filled", fillcolor="#edf7fd", color="#81bad7", fontname="DejaVu Sans", fontsize=11, fontcolor="#103c53", margin="0.16,0.13"];
+  edge [color="#369ac5", penwidth=1.5, arrowsize=0.7];
+  source [label="50 políticas\nCSV sintético"];
+  chunks [label="Validação e chunks\n500 caracteres / overlap 100"];
+  meta [label="Metadados\nID • domínio • seção • ACL"];
+  vec [label="Embeddings + ChromaDB\n(opcional)", fillcolor="#d9f2ed", color="#68b2a5"];
+  user [label="Pergunta + perfil\nautorizado", fillcolor="#fff4da", color="#ecc066"];
+  filter [label="Filtro ACL +\nrecuperação top 8"];
+  rerank [label="Re-ranking\ntop 4"];
+  answer [label="Resposta com fontes\nou abstenção", fillcolor="#dceafc"];
+  eval [label="Avaliação + logs\nsem dados sensíveis", fillcolor="#f2edf8", color="#ab99c6"];
+  source -> chunks -> meta -> vec -> filter -> rerank -> answer -> eval;
+  user -> filter;
+}
+

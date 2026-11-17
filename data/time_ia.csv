@@ -1,0 +1,12 @@
+Cargo,Responsabilidades principais,Nível esperado,Relação com o projeto de agentes IA,Trilha de carreira
+Product Owner de IA,"Visão do produto; priorização; critérios de aceite; stakeholders",Pleno,"Define escopo e valor de negócio; valida casos de uso",Gestão
+Líder de IA / Tech Lead,"Arquitetura; padrões; revisão técnica; gestão de riscos",Sênior,"Aprova desenho multiagente; revisa decisões e segurança",Especialista ou gestão
+Engenheiro de dados,"Ingestão; qualidade; catálogo; pipelines; linhagem",Pleno,"Prepara CSV e metadados; valida atualização documental",Especialista
+Analista de dados,"Métricas; taxonomia; avaliações; dashboards",Pleno,"Conduz testes de relevância, Hit@4 e monitoramento",Especialista
+Cientista de dados,"Métricas de modelos; experimentos; viés; curadoria",Sênior,"Avalia embeddings, re-ranking e robustez",Especialista
+Engenheiro de IA / LLMOps,"RAG; prompts; agentes; versionamento; observabilidade",Pleno,"Implementa recuperador, grafo e avaliações",Especialista
+Engenheiro de segurança e privacidade,"LGPD; IAM; acesso mínimo; resposta a incidentes",Sênior,"Avalia perfis; revisa logs e aprova controles de acesso",Especialista
+Designer de experiência conversacional,"Fluxos; conteúdo; acessibilidade; handoff",Pleno,"Projeta respostas claras e escalonamento humano",Especialista
+Analista de compliance bancário,"Normativos; revisão de políticas; trilhas de auditoria",Sênior,"Valida conteúdo antes da publicação e revisa exceções",Especialista
+Analista de suporte humano,"Exceções; disputas; casos de maior risco; feedback",Pleno,"Atua nas decisões que não podem ser automatizadas",Especialista ou gestão
+

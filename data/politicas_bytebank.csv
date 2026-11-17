@@ -1,0 +1,52 @@
+id,dominio,secao,conteudo,nivel_acesso
+1,conta_corrente,abertura,"Para abrir uma conta corrente no Bytebank fictício é necessário ser maior de 18 anos e apresentar documento oficial válido.",publico
+2,conta_corrente,abertura,"Menores de 18 anos podem solicitar abertura de conta com responsável legal mediante análise e documentação específica.",publico
+3,conta_corrente,tarifas,"A conta corrente digital Bytebank não possui tarifa de manutenção no plano básico demonstrativo.",publico
+4,conta_corrente,tarifas,"Clientes com investimentos acima de R$ 50.000 no Bytebank fictício recebem isenção da tarifa do plano premium.",publico
+5,conta_corrente,encerramento,"O encerramento de conta corrente pode ser solicitado pelo aplicativo após verificação de pendências financeiras.",publico
+6,conta_corrente,encerramento,"Contas com pendências financeiras devem regularizar a situação antes da conclusão do encerramento.",publico
+7,conta_corrente,solicitacao,"O cartão de débito digital é disponibilizado após aprovação da abertura da conta corrente.",publico
+8,conta_corrente,portabilidade,"A portabilidade de salário é solicitada no aplicativo mediante indicação dos dados da instituição de origem.",publico
+9,conta_corrente,pix,"Transferências Pix estão disponíveis para contas ativas após a conclusão das verificações de segurança.",publico
+10,conta_corrente,pix,"O limite de Pix noturno para clientes pessoa física é parametrizado pelo perfil de risco e pode ser consultado no aplicativo.",publico
+11,conta_corrente,emprestimo,"Clientes elegíveis podem visualizar ofertas simuladas de empréstimo pessoal diretamente no aplicativo.",publico
+12,conta_corrente,investimentos,"O Bytebank fictício oferece produtos demonstrativos de renda fixa e fundos mediante análise do perfil do investidor.",publico
+13,cartao_credito,solicitacao,"Para solicitar um cartão de crédito o cliente precisa ter conta ativa e cadastro atualizado; a aprovação depende de análise humana ou processo autorizado.",publico
+14,cartao_credito,platinum,"A solicitação do cartão Platinum fictício depende de análise de renda e aprovação humana expressa; o agente de IA não pode conceder crédito automaticamente.",publico
+15,cartao_credito,anuidade,"O cartão Silver fictício não possui anuidade; demais modalidades seguem condições exibidas no aplicativo.",publico
+16,cartao_credito,anuidade,"O cartão Gold fictício possui anuidade informada na contratação e critérios de isenção específicos.",publico
+17,cartao_credito,limite,"Pedidos de aumento do limite de cartão de crédito passam por análise e não são aprovados pelo chatbot.",publico
+18,cartao_credito,bloqueio,"Em caso de perda ou roubo do cartão o cliente deve usar a função de bloqueio imediato no aplicativo ou atendimento oficial.",publico
+19,cartao_credito,fatura,"A fatura do cartão de crédito é disponibilizada no aplicativo antes do vencimento; vencimento e valores são individuais.",publico
+20,cartao_credito,pagamento,"O pagamento mínimo da fatura pode gerar encargos conforme as condições contratuais exibidas ao cliente.",publico
+21,cartao_credito,pontos,"O programa de pontos Bytebank Rewards fictício concede benefícios de acordo com a modalidade de cartão e o regulamento vigente.",publico
+22,cartao_credito,contestacao,"Uma compra não reconhecida deve ser contestada pelo aplicativo ou canal oficial, com análise e medidas de proteção do cartão.",publico
+23,cartao_credito,segunda_via,"A segunda via de cartão pode ser solicitada pelos canais oficiais após validação de identidade.",publico
+24,cartao_credito,parcelamento,"O parcelamento de fatura depende de proposta específica exibida ao titular e aceite das condições aplicáveis.",publico
+25,suporte,canais,"O suporte do Bytebank fictício funciona por chat no aplicativo e central de atendimento em horários publicados nos canais oficiais.",publico
+26,suporte,sla,"Solicitações simples recebem protocolo e prioridade conforme a categoria definida na triagem de suporte.",publico
+27,suporte,sla,"Chamados críticos que envolvam fraude ou bloqueio indevido têm prioridade máxima para avaliação humana.",publico
+28,suporte,reclamacao,"O cliente pode registrar reclamação pelo aplicativo; o atendimento fornece número de protocolo e histórico da solicitação.",publico
+29,suporte,ouvidoria,"Reclamações não resolvidas no atendimento inicial podem ser encaminhadas à ouvidoria pelos canais oficiais.",publico
+30,suporte,acessibilidade,"O atendimento deve oferecer linguagem clara e alternativas acessíveis sempre que solicitadas.",publico
+31,suporte,atualizacao,"O cliente deve confirmar dados de contato somente nos canais oficiais e nunca enviar senhas ou códigos no chat.",publico
+32,suporte,incidente,"Em suspeita de fraude o agente deve orientar o bloqueio pelos canais oficiais e transferir o caso para a equipe responsável.",publico
+33,rh,home_office,"A política fictícia de trabalho remoto permite até três dias de home office por semana conforme aprovação da liderança.",interno
+34,rh,ferias,"Colaboradores registram solicitações de férias pelo portal interno e devem observar prazos de aprovação do RH.",interno
+35,rh,contratacao,"O processo seletivo interno exige avaliação de competências e registro de parecer dos avaliadores.",interno
+36,rh,codigo_conduta,"Todos os colaboradores devem cumprir as regras internas de confidencialidade e evitar compartilhamento de credenciais.",interno
+37,rh,beneficios,"Os benefícios corporativos fictícios são comunicados pelo RH no portal interno e podem variar conforme contrato.",interno
+38,rh,treinamento,"Treinamentos anuais de privacidade e segurança da informação são obrigatórios para colaboradores do Bytebank fictício.",interno
+39,seguranca,autenticacao,"O acesso ao aplicativo requer autenticação; operações sensíveis exigem confirmação adicional conforme o nível de risco.",publico
+40,seguranca,autenticacao,"O cliente nunca deve compartilhar senhas, tokens ou códigos de autenticação com atendentes ou assistentes de IA.",publico
+41,seguranca,lgpd,"Dados pessoais são tratados apenas para finalidades legítimas e conforme as bases legais aplicáveis; solicitações de titulares usam canais oficiais.",publico
+42,seguranca,lgpd,"Dados de clientes em relatórios internos devem usar minimização, controle de acesso e mascaramento quando possível.",interno
+43,seguranca,lgpd,"Logs técnicos não devem armazenar senhas, tokens de autenticação ou dados bancários completos.",interno
+44,seguranca,fraude,"Suspeitas de fraude devem ser encaminhadas para a equipe especializada e nunca resolvidas por decisão autônoma do agente.",publico
+45,seguranca,fraude,"Regras internas de detecção de fraude e parâmetros de risco não são disponibilizados a perfis públicos.",restrito
+46,seguranca,incidentes,"Incidentes de segurança devem ser classificados por severidade e registrados em canal corporativo designado.",interno
+47,seguranca,backup,"Os backups técnicos têm acesso restrito e testes de recuperação periódicos sob responsabilidade da infraestrutura.",restrito
+48,seguranca,terceiros,"Integrações externas devem adotar princípios de privilégio mínimo e autenticação adequada às interfaces.",interno
+49,seguranca,portabilidade,"Solicitações de portabilidade de dados pessoais devem ser avaliadas pela equipe de privacidade conforme legislação aplicável.",publico
+50,conta_corrente,portabilidade,"Clientes que realizam portabilidade de salário pelo Bytebank fictício devem validar dados da conta de destino no canal oficial.",publico
+

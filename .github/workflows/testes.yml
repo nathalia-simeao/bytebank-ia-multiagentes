@@ -1,0 +1,17 @@
+name: Testes do protótipo
+on:
+  push:
+  pull_request:
+jobs:
+  unitarios:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Testes sem API paga
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Avaliação reprodutível
+        run: PYTHONPATH=src python scripts/evaluate.py
+

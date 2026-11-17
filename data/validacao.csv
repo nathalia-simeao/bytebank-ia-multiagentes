@@ -1,0 +1,10 @@
+id,pergunta,resposta_esperada,id_fonte,termos_esperados
+q01,Como abrir uma conta corrente?,Ser maior de 18 anos e apresentar documento oficial válido,1,18 anos|documento
+q02,A conta digital tem tarifa de manutenção?,O plano básico não possui tarifa de manutenção,3,tarifa|manutenção
+q03,Como encerrar minha conta?,Solicitação pelo aplicativo após verificar pendências,5,encerramento|aplicativo
+q04,Como pedir cartão Platinum?,O pedido depende de análise de renda e aprovação humana,14,platinum|aprovação
+q05,Como bloquear um cartão perdido?,Usar o bloqueio imediato no aplicativo ou atendimento oficial,18,bloqueio|aplicativo
+q06,Como registrar reclamação?,Registrar no aplicativo e receber protocolo,28,reclamação|protocolo
+q07,Posso compartilhar código de autenticação com o suporte?,Não compartilhar senha nem código de autenticação,40,códigos|autenticação
+q08,O que fazer se houver suspeita de fraude?,Encaminhar para equipe especializada,44,fraude|equipe
+

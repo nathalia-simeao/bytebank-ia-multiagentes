@@ -1,0 +1,27 @@
+Termo,Definição,Exemplo no Bytebank
+Embedding,"Representação vetorial numérica de um texto",Converter trechos de políticas em vetores para busca semântica
+Chunk,"Trecho menor de um documento",Parágrafo da política de contas correntes
+Overlap,"Sobreposição entre trechos consecutivos",Repetir 100 caracteres nas bordas dos chunks
+Vector store,"Banco de dados com embeddings",ChromaDB indexando políticas fictícias
+Retriever,"Componente que busca contextos relevantes",Encontrar as 8 políticas mais similares à pergunta
+Similaridade de cosseno,"Medida de proximidade entre vetores",Comparar pergunta e política no espaço vetorial
+Distância euclidiana,"Distância geométrica entre vetores",Alternativa de medida de distância em busca vetorial
+Re-ranking,"Reordenação de resultados inicialmente recuperados",Selecionar 4 evidências entre 8 candidatas
+Metadados,"Atributos estruturados associados a documentos",dominio; secao; nivel_acesso; categoria
+Tokens,"Unidades usadas pelo modelo para processar texto",Controlar orçamento do prompt e tamanho da resposta
+Softmax,"Função que normaliza pontuações em probabilidades",Distribuição de saídas em mecanismos de atenção
+ANN,"Busca aproximada por vizinhos mais próximos",Acelerar consulta vetorial em bases grandes
+Busca semântica,"Recuperação por significado e não só palavras iguais",Achar norma de abertura com consulta para cadastrar conta
+Busca lexical,"Busca apoiada em palavras e termos literais",Modo offline simples do projeto
+Fine-tuning,"Treinamento adicional para adaptar o comportamento do modelo",Padronizar estilo de respostas; não substitui atualização de políticas
+RAG,"Geração aumentada por recuperação de fontes",Responder usando políticas indexadas
+Grounding,"Fundamentação de respostas em evidências verificáveis",Citar ID e seção da política
+Hallucination,"Conteúdo plausível gerado sem suporte factual",Inventar prazo ou taxa inexistente
+Prompt injection,"Instrução maliciosa embutida em conteúdo não confiável",Documento tentando alterar regras do agente
+Human-in-the-Loop,"Intervenção humana obrigatória em pontos definidos",Decisão de simulação sobre cartão Platinum
+LLMOps,"Operação e ciclo de vida de aplicações com modelos de linguagem",Monitorar qualidade; custo; falhas; versões e acesso
+MCP,"Protocolo para expor ferramentas e recursos a agentes",Ferramenta consultar_saldo em cenário ilustrativo
+A2A,"Protocolo para comunicação e delegação entre agentes",Supervisor delegando tarefa a agente de cartões
+Agent Card,"Descrição de capacidades e interface de um agente",JSON do especialista de cartão
+Observabilidade,"Medição de estados e eventos na execução",Registrar roteamento e entradas sem armazenar dados sensíveis
+
